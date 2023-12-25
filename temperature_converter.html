@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="Temperature_Converter.css">
+    <!-- <h1> Time is <span id="time"> </span></h1> -->
+</head>
+<body>
+
+    <header>
+        <div class="main-section">
+            <div class="upper-side">
+            </div>
+            <div class="title">
+                <h2>Temperature Converter</h2>
+            </div>
+            <div class="result">
+                <span class="result-heading">Result (celcius)</h2>
+                <h2 class="celsius-value" id="celsius"></h2>
+            </div>
+                <div class="degree-type" id="a1">
+                    <div class="degree">
+                        <label for="temp-type">Degree</label>
+                        <input type="number" name="degree" id="degree"/>
+                    </div>
+                    <div class="temp-type" id="a1">
+                        <label for="type">Type</label>
+                        <div>
+                            <select name="temperatures" id="temp-type">
+                                <option value="Fehrenheit">Fehrenheit</option>
+                                <option value="Kelvin">Kelvin</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            <div class="button">
+                <button name="Convert" id="button">Convert</button>
+            </div>
+        </div>
+    </header> 
+    <script src="Tempeature_Converter.js"></script>
+</body>
+
+</html>

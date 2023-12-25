@@ -1,0 +1,123 @@
+body{
+    /* background-image: url('temp-converter_bg_img.jpg');
+    max-width: 100%;
+    background-size: auto; */
+    background-image: url('temp-converter_bg_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(5px); */
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    
+    
+}
+
+.main-section{
+    height: 450px;
+    width: 400px;
+    border: 1px solid #01a6f9;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 23px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 40px #3dcaba,
+                -20px -20px 40px #3dcaba;
+}
+
+.title{
+    padding: 30px 0 0 10px;
+    font-size: 20px;
+}
+
+/* .result{
+    /* display: flex;
+    justify-content: center; 
+    font-size: 25px;
+
+} */
+
+.result {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.result-heading {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.celsius-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    transition: all .45s ease;
+    font-size: 1.5rem; /* Add a font size to make it visible */
+}
+
+
+.degree-type{
+    color: black;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px ;
+    font-size: 20px;
+}
+
+.degree-type .degree{
+    display: grid;
+    /* padding: 10px; */
+}
+
+.degree-type .temp-type{
+    display: grid;
+    
+}
+
+.degree-type label{
+    padding: 10px
+}
+
+.temp-type label{
+    padding: 10px
+}
+
+
+#degree{
+    width: 150px;
+    height: 25px;
+    border: 2px solid #01a6f9;
+    border-radius: 5px;
+    
+}
+
+#temp-type{
+    width: 150px;
+    height: 32px;
+    border: 2px solid #01a6f9;
+    border-radius: 5px;
+}
+
+.button{
+    padding-top: 40px;
+}
+
+.button #button{
+    width: 360px;
+    height: 40px;
+    font-size: 15px;
+    border: 5px solid #01a6f9;
+    border-radius: 10px;
+    cursor: pointer;
+    /* color:#fff;
+    background-color: #01a6f9; */
+    box-shadow: inset -4px -4px 9px #01a6f9,
+    inset 4px 4px 9px #01a6f9;
+}
+
